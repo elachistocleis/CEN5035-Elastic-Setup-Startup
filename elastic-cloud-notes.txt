@@ -13,7 +13,7 @@ Deployment / Manage / Features / API Key
 
 Elastic Info
 curl -XGET 127.0.0.1:9200
-curl -H "Authorization: ApiKey NElHdy1ZZ0JnUFRNMFlHbDI3c3E6X0d5LWhyTTdUY21xVmw1bk83X3dLZw==" -XGET  https://my-deployment-1ed11c.es.eastus2.azure.elastic-cloud.com
+curl -H "Authorization: ApiKey eVlFUC1vZ0JnUFRNMFlHbGItSG46WVpOS0trNmpTX0tFRldiQ1IyRnBwUQ==" -XGET  https://my-deployment-1ed11c.es.eastus2.azure.elastic-cloud.com
 
 Elastic Indices (worked)
 curl \
