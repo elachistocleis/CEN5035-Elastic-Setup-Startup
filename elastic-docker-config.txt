@@ -3,20 +3,19 @@
 ✅ Authentication is enabled and cluster connections are encrypted.
 
 ℹ️  Password for the elastic user (reset with `bin/elasticsearch-reset-password -u elastic`):
-  Lq8tKzbzZGH-hLdvIC-b
+  x=iP_BLaE-VNsCdCX18P
 
 ℹ️  HTTP CA certificate SHA-256 fingerprint:
-  19120d75ab2b4c029a37e2b74b0c47b23929375bd0cff105f540f2cbfc6c9d61
+  f4bfc40f9e9a35c9e6ca20b947842fea41a7b2ad6f0bcdb492ef02a7ce278773
 
 ℹ️  Configure Kibana to use this cluster:
 • Run Kibana and click the configuration link in the terminal when Kibana starts.
 • Copy the following enrollment token and paste it into Kibana in your browser (valid for the next 30 minutes):
-  eyJ2ZXIiOiI4LjguMSIsImFkciI6WyIxNzIuMTguMC4yOjkyMDAiXSwiZmdyIjoiMTkxMjBkNzVhYjJiNGMwMjlhMzdlMmI3NGIwYzQ3YjIzOTI5Mzc1YmQwY2ZmMTA1ZjU0MGYyY2JmYzZjOWQ2MSIsImtleSI6ImhXelNfNGdCcTF5MThVR1VDWGJZOktabDZPUnVzVE1HZW5XMm9BVDZoSVEifQ==
+  eyJ2ZXIiOiI4LjguMSIsImFkciI6WyIxNzIuMTguMC4yOjkyMDAiXSwiZmdyIjoiZjRiZmM0MGY5ZTlhMzVjOWU2Y2EyMGI5NDc4NDJmZWE0MWE3YjJhZDZmMGJjZGI0OTJlZjAyYTdjZTI3ODc3MyIsImtleSI6IktKbzBBNGtCczIxYzFaMGlSRVV5OklrdEtHSzBYUVMyX1M1TXhOWHMxUkEifQ==
 
 ℹ️ Configure other nodes to join this cluster:
 • Copy the following enrollment token and start new Elasticsearch nodes with `bin/elasticsearch --enrollment-token <token>` (valid for the next 30 minutes):
-  eyJ2ZXIiOiI4LjguMSIsImFkciI6WyIxNzIuMTguMC4yOjkyMDAiXSwiZmdyIjoiMTkxMjBkNzVhYjJiNGMwMjlhMzdlMmI3NGIwYzQ3YjIzOTI5Mzc1YmQwY2ZmMTA1ZjU0MGYyY2JmYzZjOWQ2MSIsImtleSI6ImgyelNfNGdCcTF5MThVR1VDWGJmOjliNElJYUl4UTVlNHVxXzJPUXVSUUEifQ==
+  eyJ2ZXIiOiI4LjguMSIsImFkciI6WyIxNzIuMTguMC4yOjkyMDAiXSwiZmdyIjoiZjRiZmM0MGY5ZTlhMzVjOWU2Y2EyMGI5NDc4NDJmZWE0MWE3YjJhZDZmMGJjZGI0OTJlZjAyYTdjZTI3ODc3MyIsImtleSI6IktwbzBBNGtCczIxYzFaMGlSRVUzOmZmdDZtdmhkUkZTeHRYZ0ZZUzYwSHcifQ==
 
   If you're running in Docker, copy the enrollment token and run:
   `docker run -e "ENROLLMENT_TOKEN=<token>" docker.elastic.co/elasticsearch/elasticsearch:8.8.1`
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
